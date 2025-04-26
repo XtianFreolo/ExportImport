@@ -1,4 +1,9 @@
 
+import './globalConfig.mjs';
+
+console.log("App has loaded successfully.");
+
+
 
 
 async function loadConfig() {
@@ -14,3 +19,4 @@ async function loadConfig() {
   
   loadConfig();
   
+
