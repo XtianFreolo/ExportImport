@@ -22,3 +22,11 @@ export function removeItem(name) {
     }
 }
 
+export function listItems(name) {
+    if (inventory.length === 0) {
+        console.log("Inventory is empty.");
+    } else {
+        console.log("Current inventory");
+        inventory.forEach(item => console.log(` -${item}`));
+    }
+}
